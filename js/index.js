@@ -35,13 +35,13 @@ var counters = [
   for (var counter of counters) {
     startCounter(counter);
   }
-  window.addEventListener('scroll', function() {
-    for (var counter of counters) {
-      var counterElement = document.getElementById(counter.id);
-      counterElement.textContent = '0';
-      startCounter(counter);
-    }
-  });
+  // window.addEventListener('scroll', function() {
+  //   for (var counter of counters) {
+  //     var counterElement = document.getElementById(counter.id);
+  //     counterElement.textContent = '0';
+  //     startCounter(counter);
+  //   }
+  // });
 
 
 
