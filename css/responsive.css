@@ -6,10 +6,9 @@
         height: auto;
     }
 }
-
 @media screen and (max-width: 992px) {
     .responsive {
-        font-size: 40px;
+        font-size: 24px !important;
     }
 
     .header-profile {
@@ -19,6 +18,7 @@
 
     .shap-img {
         top: 48px;
+        display: none;
     }
     .card-section {
         margin-top: 15px;
@@ -49,6 +49,9 @@
     .nav-menu{
         margin-right: 0px !important;
     }
+    .content-lg-5{
+        padding: 0px 0px 0px 130px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -78,6 +81,15 @@
     .footer_section {
         margin-top: 40px;
     }
+    .client-section{
+        padding: 0px 30px;
+    }
+    .about-section{
+        font-size: 25px !important;
+    }
+    .content-lg-5{
+        padding: 0px 0px 0px 34px;
+    }
 }
 @media screen and (max-width: 575px) {
     .header-profile {
@@ -93,6 +105,9 @@
     .card-sections {
         margin-top: 15px;
     }
+    .card-section {
+        margin-top: 15px;
+    }
     .new-cards {
         margin-top: 15px;
     }
@@ -104,10 +119,15 @@
         height: auto;
     }
     .text-sm-center{
-        margin-left: 4rem !important;
+        margin-left: 64px !important;
+    }
+  
+}
+@media only screen and (max-width: 600px){
+    .content-lg-5{
+        padding: 0px !important;
     }
 }
-
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -146,13 +166,32 @@
     .text-sm{
         font-size: 18px;
     }
+    .content-lg-5{
+        padding: 0px 0px 0px 30px;
+    }
+}
+
+@media (min-width: 726px) and (max-width: 767px){
+    .content-box-fluid{
+        padding: 0px 110px !important;
+    }
+    .cover_image{
+        padding: 0px 110px;
+    }
+}
+@media (min-width: 600px) and (max-width: 725px){
+    .content-box-fluid{
+        padding: 0px 30px;
+    }
+    .cover_image{
+        padding: 0px 30px;
+    }
 }
 @media screen and (max-width:550px) {
     .image {
         height: 250px;
     }
 }
-
 @media screen and (min-width:1800px) {
     .cover_image {
         height: 100%;
@@ -166,13 +205,21 @@
     .content-box-fluid{
         max-width: 660px !important;
     }
+    .content-section{
+        margin-top: 50px;
+    }
 }
-
+@media screen and (max-width:820px) {
+    .content-lg-5{
+        padding: 0px 0px 0px 34px;
+    }
+}
 @media screen and (max-width:1390px) {
     .image {
         height: 350px;
         width: 100%
     }
+ 
 }
 @media screen and (min-width: 768px){
     .content-box-fluid {
